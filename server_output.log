@@ -1,0 +1,22 @@
+INFO:     Started server process [13840]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56382 - "GET /api/health HTTP/1.1" 200 OK
+Warning: No LLM configured. Using smart fallback quiz based on article content.
+INFO:     127.0.0.1:56384 - "POST /api/generate-quiz HTTP/1.1" 201 Created
+Warning: No LLM configured. Using smart fallback quiz based on article content.
+INFO:     127.0.0.1:56391 - "POST /api/generate-quiz HTTP/1.1" 201 Created
+INFO:     127.0.0.1:56398 - "POST /api/generate-quiz HTTP/1.1" 201 Created
+INFO:     127.0.0.1:65468 - "POST /api/generate-quiz HTTP/1.1" 201 Created
+Warning: No LLM configured. Using smart fallback quiz based on article content.
+INFO:     127.0.0.1:61995 - "POST /api/generate-quiz HTTP/1.1" 201 Created
+INFO:     127.0.0.1:59969 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51283 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51283 - "POST /api/generate-quiz HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51205 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62295 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54169 - "GET /api/quizzes/8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59269 - "OPTIONS /api/generate-quiz HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59269 - "POST /api/generate-quiz HTTP/1.1" 201 Created
+INFO:     127.0.0.1:52014 - "GET /api/health HTTP/1.1" 200 OK
